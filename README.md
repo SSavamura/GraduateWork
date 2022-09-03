@@ -6,6 +6,6 @@
 
 - NodeJS
 - TypeScript
-- telegraf
-- ngrok
+- Telegraf
+- Ngrok
 
