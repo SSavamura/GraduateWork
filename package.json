@@ -1,0 +1,38 @@
+{
+  "name": "diploma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "start:demon": "nodemon dist/app.js",
+    "build": "node build.js"
+  },
+  "author": "Savamura",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "clamscan": "^2.1.2",
+    "nexe": "^4.0.0-rc.1",
+    "ngrok": "^4.3.1",
+    "systeminformation": "^5.11.14",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/clamscan": "^2.0.2",
+    "@types/node": "^17.0.23",
+    "nodemon": "^2.0.15"
+  },
+  "bin": "dist/app.js",
+  "pkg": {
+    "scripts": "dist/**/*.js",
+    "assets": [
+      "./public/**/*",
+      "./src/config.json"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "build"
+  }
+}

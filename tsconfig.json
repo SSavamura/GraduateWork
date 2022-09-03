@@ -1,0 +1,39 @@
+{
+  // "include": [
+  //   "./src",
+  // ],
+
+
+  "compilerOptions": {
+    // Compile options //////////////////////////////
+    "module": "commonjs",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    // Strict ///////////////////////////////////////
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    // ESLint ///////////////////////////////////////
+    // "noPropertyAccessFromIndexSignature": true,
+    // "noUncheckedIndexedAccess": true,
+    "suppressImplicitAnyIndexErrors": true,
+    
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+  },
+  "exclude": [
+    "./node_modules"
+  ]
+}
